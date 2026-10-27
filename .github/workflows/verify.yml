@@ -1,0 +1,26 @@
+name: verify version.json
+
+on:
+  push:
+    paths:
+      - "version.json"
+      - "tools/**"
+      - ".github/workflows/**"
+  pull_request:
+    paths:
+      - "version.json"
+      - "tools/**"
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: verify signature
+        run: python tools/verify_version.py version.json
