@@ -1,0 +1,14 @@
+# 私钥、令牌永远不进仓库
+*.key
+*token*
+.signing_key
+.gh_token
+.cf_token
+.pojie_token
+.admin_token
+
+# 本地临时
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
