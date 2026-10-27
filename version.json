@@ -1,12 +1,11 @@
 {
   "schema": 1,
-  "issued": 1793093033,
+  "issued": 1793093189,
   "latest_version": "1.0.0",
   "min_version": "1.0.0",
   "enforce_min": false,
   "revoked_persona_sha": [],
   "persona": {
-    "url": "https://persona.gzdqrtt.online/p",
     "sha256": "d26f2d285bfd8c75d390871984f4f573721bc73238a8175db5be8535a7daab6f",
     "size": 24379
   },
@@ -30,5 +29,5 @@
   },
   "official": "https://github.com/lkmdqrtt-hub/pojia-version",
   "download": "https://github.com/lkmdqrtt-hub/pojia-release",
-  "sig": "PHsiwqM6IrzINXeeILoem0TzZH7GCEDKILfO0DUdPsN1PjsEcymkMniywIiXeozo8Gkf6jtQLO1MBSKoMSrgCQ=="
+  "sig": "CRqmdHTmV4Rue6PyiZFn587TiodddvyYM3Q6jy+b6sP2O2z6DtYhroHMeOxMlRffqAyqIJ5a9pcFWDtM1YKwCg=="
 }
