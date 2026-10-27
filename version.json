@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "issued": 1793093189,
+  "issued": 1793093280,
   "latest_version": "1.0.0",
   "min_version": "1.0.0",
   "enforce_min": false,
@@ -29,5 +29,5 @@
   },
   "official": "https://github.com/lkmdqrtt-hub/pojia-version",
   "download": "https://github.com/lkmdqrtt-hub/pojia-release",
-  "sig": "CRqmdHTmV4Rue6PyiZFn587TiodddvyYM3Q6jy+b6sP2O2z6DtYhroHMeOxMlRffqAyqIJ5a9pcFWDtM1YKwCg=="
+  "sig": "gT1hpHYWBrY/Gql09fvGJZqjLx74A2KT+PIITlBXsUs6drV11zhrRVeJMt1xhdU9guL7cijhVi+vkNAHa5o9Bg=="
 }
